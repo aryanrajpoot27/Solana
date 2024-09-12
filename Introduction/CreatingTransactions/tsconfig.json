@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",       // This is important for compatibility with Node.js
+    "target": "ESNext",         // Use the latest ECMAScript features
+    "esModuleInterop": true,    // Ensures interoperability between CommonJS and ES modules
+    "skipLibCheck": true,       // Skips type checking of declaration files
+    "moduleResolution": "Node"  // Resolves modules like Node.js
+  }
+}
